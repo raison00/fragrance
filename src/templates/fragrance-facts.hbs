@@ -1,0 +1,272 @@
+<style>
+@media only screen and (max-width: 1024px){
+  .how-to-wear-slide.first{
+    background-image: url({{IMAGES_HOST}}how_to_wear_slide_01_edited.jpg);
+  }
+
+  .how-to-wear-slide.second{
+    background-image: url({{IMAGES_HOST}}how_to_wear_slide_02edited.jpg);
+  }
+
+  .how-to-wear-slide.third{
+    background-image: url({{IMAGES_HOST}}how_to_wear_slide_03_edited.jpg);
+  }
+
+  .how-to-wear-slide ul{
+    width: 100%;
+    list-style: none;
+    text-align: center;
+    margin-top: 13%;
+  }
+
+  .how-to-wear-slide li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 8%;
+  }
+
+  div.how-to-wear-dots{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+
+  div.how-to-wear-dots.active{
+    background-color: #36b1cf;
+  }
+
+  div.facts-pyramid-mobile{
+    background-image: url({{IMAGES_HOST}}pyramid_edited.jpg);
+    height: 104vw;
+    width: 90vw;
+    margin: 0 auto;
+    background-size: 100%;
+    background-position: center;
+    position:relative;
+  }
+
+  .facts-pyramid-mobile hr{
+    position: absolute;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(180deg);
+    right: 10%;
+    z-index: 1000;
+    border: solid 0.1vw black;
+    height: 99.5%;
+    margin-top: 0%;
+  }
+
+  .facts-pyramid-mobile ul.perfume-timeline{
+    list-style: none;
+    position: absolute;
+    margin-left: 76vw;
+    z-index: 1050;
+  }
+
+  .facts-pyramid-mobile ul.perfume-timeline .circle{
+    height: 10vw;
+    width: 10vw;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: white;
+    text-align: center;
+    padding-top: 2.5vw;
+    font-size: 3vw;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    font-family: HelveticaNeueW01-ThinCn\ 673383;
+    font-weight: bolder;
+  }
+
+  .facts-pyramid-mobile ul.perfume-timeline li{
+    margin: 207% 0%;
+  }
+}
+</style>
+
+<link href="../{{version}}/common.css" rel="stylesheet">
+
+<div class="fragrance-destination-container">
+  <!-- desktop -->
+  <div class="fragrance-facts-container">
+
+    {{> hero fragranceGuideTitle="Fragrance Facts" pageNum="pageTwo"}}
+
+    <div id="top"  class="facts-title-container">
+        <h4>The Anatomy of Fragrance</h4>
+        <p class="subhead">It takes time for the intricate notes of a fragrance to take shape<span class="fd-desktop"> after you spray it. Here’s a breakdown: </span></p>
+    </div>
+
+
+    <img class="facts-pyramid-desktop fd-desktop" src="https://assets.macys.com/dyn_img/creativepages/fragrance_facts_desktop_pyramid.jpg">
+
+    <div class="facts-pyramid-mobile fd-mobile">
+      <hr/>
+      <ul class="perfume-timeline">
+        <li>
+          <div class="circle five-min">5 min</div>
+        </li>
+        <li>
+          <div class="circle ten-min">10 min</div>
+        </li>
+        <li>
+          <div class="circle fifteen-min">30 min</div>
+        </li>
+      </ul>
+
+      <p>
+        <span class="section-title">Top Notes</span>
+        The<br> lightest of all,<br> which you can smell<br> a hint of immediately.
+      </p>
+
+      <p>
+        <span class="section-title">Heart Notes</span>
+        These bridge the gap<br> between top & base notes.
+      </p>
+
+      <p>
+        <span class="section-title">Base Notes</span>
+        These appear once the top notes<br> have faded and anchor the fragrance.
+      </p>
+    </div>
+
+    <!-- FRAGRANCE WARDROBE -->
+    <div class="fragrance-wardrobe" id="fragrance-facts">
+      <h4>Let's talk concentration</h4>
+
+      <p class="subhead">The ratios in the blend are the greatest factor in the strength and classification of a scent.</p>
+
+      <div class="fragrance-carousel-wrapper lets-talk-concentration active">
+        <div class="mySlides1">
+          <img class="centered" src="https://assets.macys.com/dyn_img/creativepages/fragrance_facts_fraiche.png">
+          <p class="slide-text">The lightest formula of all&mdash;a splash of fragrance for anyone who likes to apply their scent liberally.</p>
+        </div>
+
+        <div class="mySlides1">
+          <img class="centered" src="https://assets.macys.com/dyn_img/creativepages/EAU_DE_COLOGNE.png">
+          <p class="slide-text">Lighter still, this bottle blend is a lower concentration that is a bit more subtle, delicate and refreshing.</p>
+        </div>
+
+        <div class="mySlides1">
+          <img class="centered" src="https://assets.macys.com/dyn_img/creativepages/fragrance_facts_toilette.png">
+          <p class="slide-text">A moderate concentration, softer but strong enough to be distinct and alluring.</p>
+        </div>
+
+        <div class="mySlides1">
+          <img class="centered" src="https://assets.macys.com/dyn_img/creativepages/fragrance_facts_eauparfum.png">
+          <p class="slide-text">Lighter than perfume, but still one of the more concentrated blends&mdash;</p>
+        </div>
+
+        <div class="mySlides1">
+          <img class="centered" src="https://assets.macys.com/dyn_img/creativepages/fragrance_facts_parfum.png">
+          <p class="slide-text">The most pure and powerful bottle blend&mdash;the notes of your fragrance linger longer and the allure has a farther reach.</p>
+        </div>
+
+        <!-- carousel navigation -->
+        <span class="less-intense">less intense</span>
+        <span class="more-intense">more intense</span>
+        <a class="less-intense facts"></a>
+        <a class="more-intense facts"></a>
+
+        <ul class="concentration-dots">
+          <li><div class="clickable-dots one active"></div></li>
+
+          <li><div class="clickable-dots two"></div></li>
+
+          <li><div class="clickable-dots three"></div></li>
+
+          <li><div class="clickable-dots four"><div/></li>
+
+          <li><div class="clickable-dots five"></div></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="wear-fragrance fd-desktop">
+    <h4>How to wear your fragrance</h4>
+      <p class="fragrance-facts-prime">
+        PRIME YOUR SKIN<br>
+        Your fragrance will do best on hydrated & moisturized skin—when you’re fresh out of the shower. Ideally, use your scented shower gel, apply the lotion after you dry off, then spritz your fragrance onto your primed skin.
+      </p>
+      <p class="fragrance-facts-where">
+        WHERE TO WEAR<br>
+        Apply your fragrance to pulse points on your wrist and neck. Dab your wrists, but don’t rub—it muddles the notes, changing the scent of the fragrance and causing your top notes to diminish more quickly.<br><br>
+        PRO TIP: Your scent will rise throughout the day, so spray lower pulse points—your ankles, calves or behind your knees.
+      </p>
+      <p class="fragrance-facts-cool">
+        KEEP IT COOL<br>
+        Overexposure to heat, humidity & light can alter your scents, so avoid storing them in your bathroom. Find a cool, dry & dark place for your fragrance wardrobe—ideally a refrigerator, but in a closet away from windows is the next best thing.
+      </p>
+    </div>
+
+    <div id="how-to-wear" class="fd-mobile">
+      <div class="my-slides">
+        <div class="how-to-wear-slide first">
+          <p class="how-to-wear-title">How to Wear<br> Your Fragrance</p><br>
+
+          <p>
+            <span class="section-title">Prime Your Skin</span><br>
+            Your fragrance will do best on hydrated<br> & moisturized skin&mdash;when you're fresh<br> out of the shower. Ideally, use your<br> scented shower gel, apply the lotion<br> after you dry off, then spritz your<br>fragrance onto your primed skin.
+          </p>
+
+          <ul>
+            <li><div class="how-to-wear-dots active"></div></li>
+            <li><div class="how-to-wear-dots"></div></li>
+            <li><div class="how-to-wear-dots"></div></li>
+          </ul>
+        </div>
+        <div class="how-to-wear-slide second">
+          <p class="how-to-wear-title">How to Wear<br> Your Fragrance</p><br>
+
+          <p>
+            <span class="section-title">Where to Wear</span><br>
+            Apply your fragrance to pulse points on<br> your wrist and neck. Dab your wrists,<br> but don't rub&mdash;it muddles the notes,<br> changing the scent of the fragrance and<br> causing your top notes to diminish more<br> quickly.
+          </p>
+
+          <p>
+            <span class="section-title">Pro Tip:</span>
+            Your scent will rise throughout<br> the day, spray lower pulse points&mdash;<br>your ankles, calves or behind your knees.
+          </p>
+
+          <ul>
+            <li><div class="how-to-wear-dots"></div></li>
+            <li><div class="how-to-wear-dots active"></div></li>
+            <li><div class="how-to-wear-dots"></div></li>
+          </ul>
+        </div>
+
+        <div class="how-to-wear-slide third">
+          <p class="how-to-wear-title">How to Wear<br> Your Fragrance</p><br>
+
+          <p>
+            <span class="section-title">Keep it Cool</span><br>
+            Overexposure to heat, humidity & light<br> can alter your scents, so avoid storing<br> them in your bathroom. Find a cool,<br> dry & dark place for your fragrance<br> wardrobe&mdash;ideally a refrigerator,<br> but in a closet away from windows is<br> the next best thing.
+          </p>
+
+          <ul>
+            <li><div class="how-to-wear-dots"></div></li>
+            <li><div class="how-to-wear-dots"></div></li>
+            <li><div class="how-to-wear-dots active"></div></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="destination-footer">
+      <img src="https://assets.macys.com/dyn_img/creativepages/fragrance_facts_destination.png"/>
+    </div>
+
+    <a href="#top" class="back-to-top fd-desktop">
+      <div class="fd-arrow-up"></div>
+      Back to Top
+    </a>
+  </div>
+</div>
+
+
+<script src="../{{version}}/js/fragrance-guide.manifest.js"></script>
+<script src="../{{version}}/js/fragrance-guide.app.js"></script>

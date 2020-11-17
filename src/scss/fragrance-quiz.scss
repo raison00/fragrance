@@ -1,0 +1,522 @@
+/* Neue Helvetica W01 45 Light (22.01kb - Latin 1) */
+ @font-face {
+     font-family: "HelveticaNeueW01-45Ligh";
+     src: url("//assets.macysassets.com/dyn_img/fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix");
+     src: url("//assets.macysassets.com/dyn_img/fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix") format("eot"), url("//assets.macysassets.com/dyn_img/fonts/5a13f7d1-b615-418e-bc3a-525001b9a671.woff2") format("woff2"), url("//assets.macysassets.com/dyn_img/fonts/530dee22-e3c1-4e9f-bf62-c31d510d9656.woff") format("woff"), url("//assets.macysassets.com/dyn_img/fonts/688ab72b-4deb-4e15-a088-89166978d469.ttf") format("truetype"), url("//assets.macysassets.com/dyn_img/fonts/7816f72f-f47e-4715-8cd7-960e3723846a.svg#7816f72f-f47e-4715-8cd7-960e3723846a") format("svg");
+ }
+
+ /* Neue Helvetica W01 25 Ultra Light (72.74kb - Latin 1) */
+ @font-face{
+  font-family:"HelveticaNeueW01-UltLt";
+  src:url("//assets.macysassets.com/dyn_img/fonts/41774233-b9da-44be-b252-6a7b612fb1c7.eot?#iefix");
+  src:url("//assets.macysassets.com/dyn_img/fonts/41774233-b9da-44be-b252-6a7b612fb1c7.eot?#iefix") format("eot"),url("//assets.macysassets.com/dyn_img/fonts/9baef9a5-e2af-4838-a3bc-da9d36c0bde8.woff2") format("woff2"),url("//assets.macysassets.com/dyn_img/fonts/4bff1fbb-b4bf-4d95-9c47-efcb14384e36.woff") format("woff"),url("//assets.macysassets.com/dyn_img/fonts/7f1f2a7d-3837-4c93-b373-f03c5da3f9a1.ttf") format("truetype"),url("//assets.macysassets.com/dyn_img/fonts/d9f2752a-8d82-4cf1-b82f-109c1105be7f.svg#d9f2752a-8d82-4cf1-b82f-109c1105be7f") format("svg");
+ }
+
+ /* Neue Helvetica W01 27 Condensed Ultra Light (53.06kb - Latin 1) */
+ @font-face{
+ font-family:"HelveticaNeueW01-UltLtC 673371";
+ src:url("//assets.macysassets.com/dyn_img/fonts/3345539a-5527-4641-bca2-fa42b579c9ed.eot?#iefix");
+ src:url("//assets.macysassets.com/dyn_img/fonts/3345539a-5527-4641-bca2-fa42b579c9ed.eot?#iefix") format("eot"),url("//assets.macysassets.com/dyn_img/fonts/c80fb00b-f0d1-44c8-bf06-2661f3a9e4f8.woff2") format("woff2"),url("//assets.macysassets.com/dyn_img/fonts/ed81998a-20f5-461f-8ae8-b2d1c4feec2a.woff") format("woff"),url("//assets.macysassets.com/dyn_img/fonts/ea4682a4-ca47-43c0-a7af-aa3d4c3df6c8.ttf") format("truetype"),url("//assets.macysassets.com/dyn_img/fonts/dc47192b-c265-43dd-8513-6a8d3bf3c186.svg#dc47192b-c265-43dd-8513-6a8d3bf3c186") format("svg");
+ }
+
+ /* Neue Helvetica W01 55 Roman (22.17kb - Latin 1) */
+ @font-face {
+     font-family: "HelveticaNeueW01-55Roma";
+     src: url("//assets.macysassets.com/dyn_img/fonts/b7693a83-b861-4aa6-85e0-9ecf676bc4d6.eot?#iefix");
+     src: url("//assets.macysassets.com/dyn_img/fonts/b7693a83-b861-4aa6-85e0-9ecf676bc4d6.eot?#iefix") format("eot"), url("//assets.macysassets.com/dyn_img/fonts/b0868b4c-234e-47d3-bc59-41ab9de3c0db.woff2") format("woff2"), url("//assets.macysassets.com/dyn_img/fonts/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff") format("woff"), url("//assets.macysassets.com/dyn_img/fonts/b0ffdcf0-26da-47fd-8485-20e4a40d4b7d.ttf") format("truetype"), url("//assets.macysassets.com/dyn_img/fonts/da09f1f1-062a-45af-86e1-2bbdb3dd94f9.svg#da09f1f1-062a-45af-86e1-2bbdb3dd94f9") format("svg");
+ }
+
+ /* Neue Helvetica W01 47 Condensed Light (52.19kb - Latin 1) */
+ @font-face{
+ font-family:"HelveticaNeueW01-47LtCn 692686";
+ src:url("//assets.macysassets.com/dyn_img/fonts/7de6b03f-1298-4bc2-89af-9d9da594008d.eot?#iefix");
+ src:url("//assets.macysassets.com/dyn_img/fonts/7de6b03f-1298-4bc2-89af-9d9da594008d.eot?#iefix") format("eot"),url("//assets.macysassets.com/dyn_img/fonts/b37ddbd9-24db-4864-9095-5084a5679dd2.woff2") format("woff2"),url("//assets.macysassets.com/dyn_img/fonts/42aacb2f-222e-46f5-a95a-1c22948ee0d1.woff") format("woff"),url("//assets.macysassets.com/dyn_img/fonts/217a2f81-1e65-4924-a0d4-05ac8576f883.ttf") format("truetype"),url("//assets.macysassets.com/dyn_img/fonts/5405647d-099e-47f7-9d4a-f8692e57a206.svg#5405647d-099e-47f7-9d4a-f8692e57a206") format("svg");
+ }
+
+ .fg-quiz-container {
+   max-width: 1280px;
+   margin: auto;
+   background-color: #fafbfd;
+   background-image: url("https://assets.macys.com/dyn_img/creativepages/fd-quiz-bg-desktop_edited.jpg");
+   background-repeat: no-repeat;
+   height: auto;
+   position: relative;
+ }
+
+ .fg-quiz-container .fg-quiz-main-content, .fg-quiz-container .fg-results-container {
+   max-width: 982px;
+   margin: auto;
+ }
+
+ .fg-quiz-container .fg-quiz-main-content {
+   display: block;
+ }
+
+ .fg-quiz-container .fg-results-container {
+   display: none;
+ }
+
+ /* ROW ONE */
+ .fg-quiz-container .fg-quiz-main-content .fg-quiz-row-one h2, .fg-quiz-container .fg-results-container .fg-quiz-row-one h2 {
+   font-family: "HelveticaNeueW01-UltLt", Arial, sans-serif;
+   text-align: center;
+   font-size: 57px;
+     letter-spacing: 1.5px;
+     font-weight: bolder;
+     margin-top: 1em;
+     margin-bottom: 0px;
+ }
+
+ .fg-quiz-container .fg-quiz-main-content .fg-quiz-row-one p {
+   font-family: "HelveticaNeueW01-UltLtC 673371", Arial, sans-serif;
+     text-align: center;
+     font-size: 27px;
+     text-transform: uppercase;
+     line-height: 27px;
+     margin-top: -10px;
+     font-weight: bold;
+ }
+
+ /* ROW TWO */
+ .fg-quiz-container .fg-quiz-main-content .fg-quiz-row-two, .fg-quiz-container .fg-results-container .fg-quiz-row-two {
+   background-color: #ebeeed;
+   margin-top: 7px;
+   margin-bottom: 3em;
+ }
+
+ .fg-quiz-container .fg-quiz-main-content .fg-quiz-row-two h3, .fg-quiz-container .fg-results-container .fg-quiz-row-two h3 {
+   font-family: "HelveticaNeueW01-UltLt", Arial, sans-serif;
+   text-align: center;
+   font-size: 166px;
+     line-height: 139px;
+     margin-top: 49px;
+     margin-bottom: 42px;
+     letter-spacing: 5px;
+ }
+
+ .fg-quiz-container .fg-quiz-main-content .fg-quiz-row-two h3 span, .fg-quiz-container .fg-results-container .fg-quiz-row-two h3 span {
+   color: #4a8865;
+ }
+
+ .fg-quiz-container .fg-quiz-main-content .fg-quiz-row-two .fg-quiz-buttons {
+   width: 757px;
+   margin: auto;
+ }
+
+ .fg-quiz-container .fg-quiz-main-content .fg-quiz-row-two p {
+   font-family: "HelveticaNeueW01-UltLtC 673371", Arial, sans-serif;
+   text-align: center;
+   float: left;
+   font-size: 27px;
+     margin-left: 95px;
+     letter-spacing: .5px;
+     font-weight: bold;
+     text-decoration: underline;
+     cursor: pointer;
+     margin-bottom: 60px;
+ }
+
+
+
+ /* QUESTIONAIRE */
+ .fg-quiz-container .fg-quiz-main-content .fg-quiz-questions {
+   margin-top: 3em;
+   /*display: none;*/
+ }
+
+ .fg-quiz-container .fg-quiz-main-content .fg-quiz-questions-for-her {
+   display: none;
+ }
+
+ .fg-quiz-container .fg-quiz-main-content .fg-quiz-questions-for-him {
+   display: none;
+ }
+
+ .fg-quiz-questions .fg-quiz-bubble {
+     background-color: #ebeeed;
+     width: 100%;
+     text-align: center;
+     height: 100px;
+ }
+
+ .fg-quiz-questions .fg-quiz-bubble-arrow p {
+     font-size: 70px;
+     transform: rotate(180deg);
+     text-align: center;
+     margin-bottom: 0px;
+     color: #ebeeed;
+     line-height: 0px;
+   }
+
+ .fg-quiz-questions .fg-quiz-question-row p {
+   font-family: "HelveticaNeueW01-45Ligh", Arial, sans-serif;
+   font-size: 32px;
+   text-align: center;
+   font-weight: lighter;
+   line-height: 35px;
+     padding: 40px 0px;
+     margin-bottom: 0px;
+ }
+
+ .fg-quiz-questions .question-one-women .fg-quiz-question-answers-row, .fg-quiz-questions .question-one-men .fg-quiz-question-answers-row {
+   background-color: #ebeeed;
+ }
+
+ .fg-quiz-questions .question-two-women .fg-quiz-question-answers-row, .fg-quiz-questions .question-two-men .fg-quiz-question-answers-row {
+   background-color: #c5ceda;
+ }
+
+ .fg-quiz-questions .question-three-women .fg-quiz-question-answers-row {
+   background-color: #d3cbdf;
+ }
+
+ .fg-quiz-questions .question-three-men .fg-quiz-question-answers-row {
+   background-color: #bfd0d6;
+ }
+
+ .fg-quiz-questions .question-four-women .fg-quiz-question-answers-row, .fg-quiz-questions .question-four-men .fg-quiz-question-answers-row {
+   background-color: #bed4d0;
+ }
+
+ .fg-quiz-questions .question-five-women .fg-quiz-question-answers-row {
+   background-color: #c6cee5;
+ }
+
+ .fg-quiz-questions .question-five-men .fg-quiz-question-answers-row {
+   background-color: #dce7c2;
+ }
+
+ .fg-quiz-questions .fg-quiz-question-answers-row ul {
+   padding: 40px 0px;
+   /*margin-left: 10px;*/
+ }
+
+ .fg-quiz-questions .fg-quiz-question-answers-row img {
+     width: 300px;
+     height: 300px;
+     cursor: pointer;
+     opacity: .5;
+     display: block;
+     margin: auto;
+ }
+
+ .fg-quiz-questions .fg-quiz-question-answers-row img:hover {
+     opacity: 1;
+ }
+
+ .fg-quiz-questions .fg-quiz-question-answers-row img.active {
+   opacity: 1;
+   border: 1px solid #000;
+   border-radius: 50%;
+ }
+
+ .fg-quiz-questions .results-button {
+   text-align: center;
+   margin: 3em 0em;
+ }
+
+ .fg-quiz-questions .results-button button {
+   background-color: #4a8865;
+     border: none;
+     color: white;
+ }
+
+ /* RESULTS */
+ .fg-quiz-container .fg-results-container {
+   max-width: 982px;
+   margin: auto;
+ }
+
+ /* ROW ONE */
+ .fg-quiz-container .fg-results-container .fg-quiz-row-one h2 {
+   font-family: "HelveticaNeueW01-UltLt", Arial, sans-serif;
+   text-align: center;
+   font-size: 57px;
+     letter-spacing: 1.5px;
+     font-weight: bolder;
+     margin-top: 1em;
+     margin-bottom: 0px;
+ }
+
+ /* ROW TWO */
+ .fg-quiz-container .fg-results-container .fg-quiz-row-two {
+   text-align: center;
+ }
+ .fg-quiz-container .fg-results-container .fg-quiz-row-two img {
+   display: block;
+   margin: auto;
+   margin-top: 3em;
+   width: 150px;
+   height: 150px;
+ }
+
+ .fg-quiz-container .fg-results-container .fg-quiz-row-two {
+   background-color: #ebeeed;
+   margin-top: 7px;
+   margin-bottom: 3em;
+ }
+
+ .fg-quiz-container .fg-results-container .fg-quiz-row-two h3 {
+   font-family: "HelveticaNeueW01-UltLt", Arial, sans-serif;
+   text-align: center;
+   font-size: 166px;
+     line-height: 139px;
+     color: #606060;
+     margin-top: 49px;
+     margin-bottom: 42px;
+ }
+
+ .fg-quiz-container .fg-results-container .fg-quiz-row-two p, .fg-quiz-container .fg-results-container .fg-quiz-row-two li {
+   font-family: "HelveticaNeueW01-UltLtC 673371", Arial, sans-serif;
+     text-align: center;
+     font-size: 27px;
+     line-height: 27px;
+     font-weight: bold;
+ }
+
+ .fg-quiz-container .fg-results-container .fg-quiz-row-two p.scent-info {
+   margin-bottom: 3em;
+ }
+
+ .fg-quiz-container .fg-results-container .fg-quiz-row-two ul {
+   list-style-type: none;
+ }
+
+ .fg-quiz-container .fg-results-container .fg-quiz-row-two ul.shop-links {
+   padding-bottom: 35px;
+ }
+
+ .fg-quiz-container .fg-results-container .fg-quiz-row-two ul li {
+   float: left;
+ }
+
+ .fg-quiz-container .fg-results-container .fg-quiz-row-two ul.shop-links li {
+   width: 33%;
+ }
+
+ .fg-quiz-container .fg-results-container .fg-quiz-row-two .quiz-share-info ul {
+   margin-left: 1em;
+ }
+
+ .fg-quiz-container .fg-results-container .fg-quiz-row-two .quiz-share-info ul li {
+   padding: 20px 10px;
+ }
+
+ .fg-quiz-container .fg-results-container .fg-quiz-row-two .quiz-share-info ul li img {
+   margin-top: unset;
+   width: unset;
+   height: unset;
+ }
+
+ .fg-quiz-container .fg-results-container .fg-quiz-row-two .quiz-result-citrus, .fg-quiz-container .fg-results-container .fg-quiz-row-two .quiz-result-spicy, .fg-quiz-container .fg-results-container .fg-quiz-row-two .quiz-result-sweet, .fg-quiz-container .fg-results-container .fg-quiz-row-two .quiz-result-fresh, .fg-quiz-container .fg-results-container .fg-quiz-row-two .quiz-result-woodsy, .fg-quiz-container .fg-results-container .fg-quiz-row-two .quiz-result-floral {
+   display: none;
+ }
+
+ img.fd-quiz-banner.fd-desktop{
+   display: block;
+   margin: 0 auto;
+   margin-top: 3%;
+ }
+
+ .fd-quiz-question-row{
+   position: relative;
+ }
+
+ a.less-intense.quiz{
+   bottom: 20px;
+   left: 30px;
+   font-size: 28px;
+   text-decoration: none;
+ }
+
+ a.more-intense.quiz{
+   position: absolute;
+   bottom: 0px;
+   right: 0px;
+   font-size: 28px;
+   text-decoration: none;
+ }
+
+ div.results-button{
+   display: none;
+ }
+
+ .fd-quiz-questions div.mySlides1{
+   position: relative;
+ }
+
+ @media only screen and (max-width: 1024px) {
+   .fd-desktop {
+     display: none !important;
+   }
+   .fg-quiz-container {
+     max-width: 100%;
+     margin: auto;
+     background-color: #fafbfd;
+     background-image: url("https://assets.macys.com/dyn_img/creativepages/quiz-main-bg-mobile.jpg");
+     background-repeat: no-repeat;
+     background-size: contain;
+     height: auto;
+   }
+
+   .fg-quiz-container .fg-quiz-main-content, .fg-quiz-container .fg-results-container {
+     max-width: 85%;
+     margin: auto;
+   }
+
+   /* ROW ONE */
+   .fg-quiz-container .fg-quiz-main-content .fg-quiz-row-one h2, .fg-quiz-container .fg-results-container .fg-quiz-row-one h2 {
+     font-size: 5.5vw;
+     margin-bottom: 5vw;
+     font-family: "HelveticaNeueW01-Thin";
+   }
+
+   .fg-quiz-container .fg-quiz-main-content .fg-quiz-row-one p {
+     font-size: 5vw;
+     line-height: 6vw;
+     margin-top: -4vw;
+     font-family: "HelveticaNeueW01-ThinCn 673383";
+   }
+
+   /* ROW TWO */
+   .fg-quiz-container .fg-quiz-main-content .fg-quiz-row-two, .fg-quiz-container .fg-results-container .fg-quiz-row-two {
+     margin-top: 1vw;
+     margin-bottom: 10vw;
+   }
+
+   .fg-quiz-container .fg-quiz-main-content .fg-quiz-row-two h3, .fg-quiz-container .fg-results-container .fg-quiz-row-two h3 {
+     font-size: 13vw;
+     line-height: 13vw;
+     margin-top: 10vw;
+     margin-bottom: 10vw;
+     letter-spacing: 0.01em;
+     font-family: HelveticaNeueW01-Thin;
+   }
+
+   .fg-quiz-container .fg-quiz-main-content .fg-quiz-row-two .fg-quiz-buttons {
+     width: 95%;
+   }
+
+   .fg-quiz-container .fg-quiz-main-content .fg-quiz-row-two p {
+     font-size: 6vw;
+       margin-left: unset;
+       margin-bottom: 10vw;
+       width: 50%;
+   }
+
+
+
+   /* QUESTIONAIRE */
+   .fg-quiz-questions .fg-quiz-bubble {
+       height: 20vw;
+   }
+
+   .fg-quiz-questions .fg-quiz-bubble-arrow p {
+       font-size: 15vw;
+     }
+
+   .fg-quiz-questions .fg-quiz-question-row p {
+     font-size: 7vw;
+     line-height: 8vw;
+       padding: 7vw 0px;
+   }
+
+   .fg-quiz-questions .fg-quiz-question-answers-row ul {
+     padding: 10vw 0px;
+     /*margin-left: 10px;*/
+   }
+
+   .fg-quiz-questions .fg-quiz-question-answers-row img {
+       width: 75%;
+       height: auto;
+   }
+
+   .fg-quiz-questions .fg-quiz-question-answers-row img:hover {
+       opacity: 1;
+   }
+
+   .fg-quiz-questions .fg-quiz-question-answers-row img.active {
+     opacity: 1;
+     border: solid 3px black;
+     border-radius: 50%;
+   }
+
+   /* RESULTS */
+   .fg-quiz-container .fg-results-container {
+     max-width: 85%;
+     margin: auto;
+   }
+
+   /* ROW ONE */
+   .fg-quiz-container .fg-results-container .fg-quiz-row-one h2 {
+     font-size: 6.5vw;
+       margin-bottom: 5vw;
+   }
+
+   /* ROW TWO */
+   .fg-quiz-container .fg-results-container .fg-quiz-row-two {
+     text-align: center;
+   }
+   .fg-quiz-container .fg-results-container .fg-quiz-row-two img {
+     width: 50%;
+     height: auto;
+   }
+
+   .fg-quiz-container .fg-results-container .fg-quiz-row-two {
+     margin-top: 1vw;
+   }
+
+   .fg-quiz-container .fg-results-container .fg-quiz-row-two h3 {
+     font-family: HelveticaNeueW01-Thin,Arial,sans-serif;
+     text-align: center;
+     font-size: 17.5vw;
+     line-height: 22vw;
+     color: #606060;
+     margin-top: 10vw;
+     margin-bottom: 10vw;
+   }
+
+   .fg-quiz-container .fg-results-container .fg-quiz-row-two p, .fg-quiz-container .fg-results-container .fg-quiz-row-two li {
+       font-size: 6vw;
+       line-height: 7vw;
+   }
+
+   .fg-quiz-container .fg-results-container .fg-quiz-row-two p.scent-info {
+     margin-bottom: 10vw;
+   }
+
+   .fg-quiz-container .fg-results-container .fg-quiz-row-two ul.shop-links {
+     padding-bottom: 18vw;
+   }
+
+   .fg-quiz-container .fg-results-container .fg-quiz-row-two .quiz-share-info ul {
+     margin-left: unset;
+   }
+
+   .fg-quiz-container .fg-results-container .fg-quiz-row-two .quiz-share-info ul li {
+     padding: 3vw 2vw;
+   }
+
+   .fg-quiz-container .fg-results-container .fg-quiz-row-two .quiz-share-info ul li img {
+     margin-top: 3vw;
+   }
+
+   .fg-quiz-container .fg-results-container .fg-quiz-row-two .quiz-result-citrus, .fg-quiz-container .fg-results-container .fg-quiz-row-two .quiz-result-spicy, .fg-quiz-container .fg-results-container .fg-quiz-row-two .quiz-result-sweet, .fg-quiz-container .fg-results-container .fg-quiz-row-two .quiz-result-fresh, .fg-quiz-container .fg-results-container .fg-quiz-row-two .quiz-result-woodsy, .fg-quiz-container .fg-results-container .fg-quiz-row-two .quiz-result-floral {
+     display: none;
+   }
+
+   img.fd-quiz-banner{
+     width: 85%;
+     margin: 0 auto;
+     display: block;
+     margin-top: 7%;
+   }
+
+   a.less-intense.quiz{
+     font-size: 5vw;
+   }
+
+   a.more-intense.quiz{
+     font-size: 5vw;
+   }
+ }

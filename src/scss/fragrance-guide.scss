@@ -1,0 +1,1385 @@
+@import "~slick-carousel/slick/slick";
+/* Neue Helvetica W01 25 Ultra Light (72.74kb - Latin 1) */
+@font-face{
+ font-family:"HelveticaNeueW01-UltLt";
+ src:url("//assets.macysassets.com/dyn_img/fonts/41774233-b9da-44be-b252-6a7b612fb1c7.eot?#iefix");
+ src:url("//assets.macysassets.com/dyn_img/fonts/41774233-b9da-44be-b252-6a7b612fb1c7.eot?#iefix") format("eot"),url("//assets.macysassets.com/dyn_img/fonts/9baef9a5-e2af-4838-a3bc-da9d36c0bde8.woff2") format("woff2"),url("//assets.macysassets.com/dyn_img/fonts/4bff1fbb-b4bf-4d95-9c47-efcb14384e36.woff") format("woff"),url("//assets.macysassets.com/dyn_img/fonts/7f1f2a7d-3837-4c93-b373-f03c5da3f9a1.ttf") format("truetype"),url("//assets.macysassets.com/dyn_img/fonts/d9f2752a-8d82-4cf1-b82f-109c1105be7f.svg#d9f2752a-8d82-4cf1-b82f-109c1105be7f") format("svg");
+}
+
+/* Neue Helvetica W01 35 Thin (59.50kb - Latin 1) */
+@font-face{
+font-family:"HelveticaNeueW01-Thin";
+src:url("//assets.macysassets.com/dyn_img/fonts/56be84de-9d60-4089-8df0-0ea6ec786b84.eot?#iefix");
+src:url("//assets.macysassets.com/dyn_img/fonts/56be84de-9d60-4089-8df0-0ea6ec786b84.eot?#iefix") format("eot"),url("//assets.macysassets.com/dyn_img/fonts/aff68211-86bb-476d-882e-f7a3face144c.woff2") format("woff2"),url("//assets.macysassets.com/dyn_img/fonts/50d35bbc-dfd4-48f1-af16-cf058f69421d.woff") format("woff"),url("//assets.macysassets.com/dyn_img/fonts/278bef59-6be1-4800-b5ac-1f769ab47430.ttf") format("truetype"),url("//assets.macysassets.com/dyn_img/fonts/2e309b1b-08b8-477f-bc9e-7067cf0af0b3.svg#2e309b1b-08b8-477f-bc9e-7067cf0af0b3") format("svg");
+}
+
+/* Neue Helvetica W01 37 Condensed Thin (52.10kb - Latin 1) */
+@font-face{
+font-family:"HelveticaNeueW01-ThinCn 673383";
+src:url("//assets.macysassets.com/dyn_img/fonts/08e2b89e-9853-40e2-b409-05538c48390b.eot?#iefix");
+src:url("//assets.macysassets.com/dyn_img/fonts/08e2b89e-9853-40e2-b409-05538c48390b.eot?#iefix") format("eot"),url("//assets.macysassets.com/dyn_img/fonts/07c0e1c6-6a3d-4c99-8311-b77b3223bbaa.woff2") format("woff2"),url("//assets.macysassets.com/dyn_img/fonts/3d0bfb88-4887-4fd3-a16f-34ae15cbfe25.woff") format("woff"),url("/dyn_img/fonts/007ff3cd-c6c5-4d33-8458-99c3d6fc8598.ttf") format("truetype"),url("//assets.macysassets.com/dyn_img/fonts/67ccdd14-5fcd-479c-9829-ec39a60795fa.svg#67ccdd14-5fcd-479c-9829-ec39a60795fa") format("svg");
+}
+
+/* Neue Helvetica W01 27 Condensed Ultra Light (53.06kb - Latin 1) */
+@font-face{
+font-family:"HelveticaNeueW01-UltLtC 673371";
+src:url("//assets.macysassets.com/dyn_img/fonts/3345539a-5527-4641-bca2-fa42b579c9ed.eot?#iefix");
+src:url("//assets.macysassets.com/dyn_img/fonts/3345539a-5527-4641-bca2-fa42b579c9ed.eot?#iefix") format("eot"),url("//assets.macysassets.com/dyn_img/fonts/c80fb00b-f0d1-44c8-bf06-2661f3a9e4f8.woff2") format("woff2"),url("//assets.macysassets.com/dyn_img/fonts/ed81998a-20f5-461f-8ae8-b2d1c4feec2a.woff") format("woff"),url("//assets.macysassets.com/dyn_img/fonts/ea4682a4-ca47-43c0-a7af-aa3d4c3df6c8.ttf") format("truetype"),url("//assets.macysassets.com/dyn_img/fonts/dc47192b-c265-43dd-8513-6a8d3bf3c186.svg#dc47192b-c265-43dd-8513-6a8d3bf3c186") format("svg");
+}
+
+/* Neue Helvetica W01 47 Condensed Light (52.19kb - Latin 1) */
+@font-face{
+font-family:"HelveticaNeueW01-47LtCn 692686";
+src:url("//assets.macysassets.com/dyn_img/fonts/7de6b03f-1298-4bc2-89af-9d9da594008d.eot?#iefix");
+src:url("//assets.macysassets.com/dyn_img/fonts/7de6b03f-1298-4bc2-89af-9d9da594008d.eot?#iefix") format("eot"),url("//assets.macysassets.com/dyn_img/fonts/b37ddbd9-24db-4864-9095-5084a5679dd2.woff2") format("woff2"),url("//assets.macysassets.com/dyn_img/fonts/42aacb2f-222e-46f5-a95a-1c22948ee0d1.woff") format("woff"),url("//assets.macysassets.com/dyn_img/fonts/217a2f81-1e65-4924-a0d4-05ac8576f883.ttf") format("truetype"),url("//assets.macysassets.com/dyn_img/fonts/5405647d-099e-47f7-9d4a-f8692e57a206.svg#5405647d-099e-47f7-9d4a-f8692e57a206") format("svg");
+}
+
+/* Neue Helvetica W01 55 Roman (22.17kb - Latin 1) */
+@font-face {
+    font-family: "HelveticaNeueW01-55Roma";
+    src: url("//assets.macysassets.com/dyn_img/fonts/b7693a83-b861-4aa6-85e0-9ecf676bc4d6.eot?#iefix");
+    src: url("//assets.macysassets.com/dyn_img/fonts/b7693a83-b861-4aa6-85e0-9ecf676bc4d6.eot?#iefix") format("eot"), url("//assets.macysassets.com/dyn_img/fonts/b0868b4c-234e-47d3-bc59-41ab9de3c0db.woff2") format("woff2"), url("//assets.macysassets.com/dyn_img/fonts/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff") format("woff"), url("//assets.macysassets.com/dyn_img/fonts/b0ffdcf0-26da-47fd-8485-20e4a40d4b7d.ttf") format("truetype"), url("//assets.macysassets.com/dyn_img/fonts/da09f1f1-062a-45af-86e1-2bbdb3dd94f9.svg#da09f1f1-062a-45af-86e1-2bbdb3dd94f9") format("svg");
+}
+
+.fragrance-destination-container{
+  width: 1280px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.fd-mobile{
+  display: none;
+}
+
+/* General Header and Nav Styles */
+.fragrance-guide-header{
+  display: flex;
+  justify-content:center;
+}
+
+.fragrance-guide-header h2{
+  text-align: center;
+  font-family: "HelveticaNeueW01-UltLt", Arial, sans-serif;
+  font-size: 85px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  width: 420px;
+  line-height: 70px;
+  padding-top: 0.4%;
+}
+
+span.fragrance-guide-smaller{
+  display: block;
+  font-family: "HelveticaNeueW01-ThinCn 673383", Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-size: 28px;
+}
+
+.fragrance-destination-nav{
+  position: relative;
+}
+
+.fragrance-destination-nav ul.fgd-centered{
+  list-style: none;
+  width: 800px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.fragrance-destination-nav li{
+  display: inline-block;
+  font-size: 25px;
+  font-family: "HelveticaNeueW01-ThinCn 673383", Arial, sans-serif;
+  line-height: 25px;
+  padding-top: 1.5%;
+  letter-spacing: 0.03em;
+  font-weight: bolder;
+}
+
+.fragrance-destination-nav a{
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.fgd-active-page{
+  color: #9C4AA1;
+  font-weight: bolder;
+}
+/* Page Specific Header and Nav Styles */
+.fragrance-guide-header.pageOne{
+  background-image: url("https://assets.macys.com/dyn_img/creativepages/scent_explorer_bg_01.jpg");
+  height: 270px;
+  background-size: 100%;
+}
+
+.fragrance-destination-nav.pageOne{
+  background-image: url("https://assets.macys.com/dyn_img/creativepages/scent_explorer_bg_02.jpg");
+      height: 77px;
+      background-size: 100%;
+}
+
+.fragrance-guide-header.pageThree{
+  background-image: url("https://assets.macys.com/dyn_img/creativepages/C8080688_trendingNow_hero_dsk.jpg");
+  height: 269px;
+  background-size: 100%;
+}
+
+.fragrance-destination-nav.pageThree{
+  background-image: url("https://assets.macys.com/dyn_img/creativepages/C8080688_trendingNow_nav_dsk.jpg");
+      height: 77px;
+      background-size: 100%;
+}
+
+/* Page Specific Header and Nav Styles */
+  .fragrance-guide-header.pageFour{
+    background-image: url("https://assets.macys.com/dyn_img/creativepages/quiz-header-bg.jpg");
+    background-size: 100%;
+    height: 280px;
+  }
+
+  .fragrance-destination-nav.pageFour{
+    background-image: url("https://assets.macys.com/dyn_img/creativepages/quiz-bg-nav.jpg");
+    background-size: 100%;
+    height: 75.5px;
+  }
+/* Scent Explorer Styles start */
+
+.scent-explorer-container{
+  background-image: url("https://assets.macys.com/dyn_img/creativepages/scent_explorer_bg_03.jpg");
+  height: 2900px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: #DACCE6;
+}
+
+.scent-explorer-container h4{
+  margin: 0;
+  font-family: "HelveticaNeueW01-UltLt", Arial, sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.scent-explorer-container p{
+  font-family: "HelveticaNeueW01-UltLtC 673371", Arial, sans-serif;
+  font-size: 27px;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 27px;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+.scent-explorer-container img.centered{
+  margin: 0 auto;
+  display: block;
+}
+
+/* Micro styling begins here */
+.scent-explorer-container .top-ten{
+  position:relative;
+  height: 970px;
+}
+
+.scent-explorer-container .top-ten h4{
+  padding: 5.7% 0 0 0;
+}
+
+.scent-explorer-container .top-ten p{
+  width: 500px;
+  padding: 0.5% 0 3.3% 0;
+}
+
+.top-ten span.hover{
+  position: absolute;
+  z-index: 1000;
+  background-image: url("https://assets.macys.com/dyn_img/creativepages/circle.png");
+  height: 21px;
+  width: 21px;
+}
+
+.top-ten span.ysl{
+  top: 49.5%;
+  left: 22%;
+}
+
+.top-ten span.giorgio-armani{
+  bottom: 33.5%;
+  left: 18.5%;
+}
+
+.top-ten span.dior-sauvage{
+  bottom: 39.4%;
+  left: 28%;
+}
+
+.top-ten span.dior-jadore{
+  left: 36%;
+  top: 49%;
+}
+
+.top-ten span.carolina-herrera{
+  left: 43.5%;
+  bottom: 49%;
+}
+
+.top-ten span.dk{
+  top: 49%;
+  right: 45%;
+}
+
+.top-ten span.viktor-rolf{
+  right: 45.3%;
+  bottom: 20%;
+}
+
+.top-ten span.coach{
+  top: 49.5%;
+  right: 35%;
+}
+
+.top-ten span.versace{
+  bottom: 21%;
+  right: 32%;
+}
+
+.top-ten span.tiffany-and-co{
+  right: 18.5%;
+  bottom: 18%;
+}
+
+.top-ten .hexagon {
+  position: absolute;
+  width: 120px;
+  height: 185px;
+  background-color: #fff;
+  margin: 88.6px 0;
+}
+
+.top-ten .hexagon:before,
+.top-ten .hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 60px solid transparent;
+  border-right: 60px solid transparent;
+}
+
+.top-ten .hexagon.hex-top:before {
+  bottom: 100%;
+  border-bottom: 53.6px solid #fff;
+}
+
+.top-ten .hexagon.hex-bottom:after {
+  top: 100%;
+  width: 0;
+  border-top: 53.6px solid #fff;
+}
+
+.top-ten div.ysl.info-popup{
+  top: -1481%;
+  left: -481%;
+  visibility: hidden;
+}
+
+.top-ten span.ysl:hover div.ysl.info-popup{
+  visibility: visible;
+}
+
+.top-ten div.giorgio-armani.info-popup{
+  top: -1008%;
+  left: -245%;
+  visibility: hidden;
+}
+
+.top-ten span.giorgio-armani:hover div.giorgio-armani.info-popup{
+  visibility: visible;
+}
+
+.top-ten div.dior-sauvage.info-popup{
+  top: -1563.5%;
+  left: -225%;
+  visibility: hidden;
+}
+
+.top-ten span.dior-sauvage:hover div.dior-sauvage.info-popup{
+  visibility: visible;
+}
+
+.top-ten div.dior-jadore.info-popup{
+  bottom: -1564%;
+  left: -232%;
+  visibility: hidden;
+}
+
+.top-ten span.dior-jadore:hover div.dior-jadore.info-popup{
+  visibility: visible;
+}
+
+.top-ten div.carolina-herrera.info-popup{
+  top: -1579%;
+  left: -369%;
+  visibility: hidden;
+}
+
+.top-ten span.carolina-herrera:hover div.carolina-herrera.info-popup{
+  visibility: visible;
+}
+
+.top-ten div.viktor-rolf.info-popup{
+  bottom: -1321.5%;
+  right: -229%;
+  visibility: hidden;
+}
+
+.top-ten span.viktor-rolf:hover div.viktor-rolf.info-popup{
+  visibility: visible;
+}
+
+.top-ten div.dk.info-popup{
+  top: -55.5%;
+  right: -225%;
+  visibility: hidden;
+}
+
+.top-ten span.dk:hover div.dk.info-popup{
+  visibility: visible;
+}
+
+.top-ten div.coach.info-popup{
+  top: -1504%;
+  right: -53%;
+  visibility: hidden;
+}
+
+.top-ten span.coach:hover div.coach.info-popup{
+  visibility: visible;
+}
+
+.top-ten div.versace.info-popup{
+  bottom: -57.5%;
+  right: -188.3%;
+  visibility: hidden;
+}
+
+.top-ten span.versace:hover div.versace.info-popup{
+  visibility: visible;
+}
+
+.top-ten div.tiffany-and-co.info-popup{
+  bottom: -1200.5%;
+  right: -242.5%;
+  visibility: hidden;
+}
+
+.top-ten span.tiffany-and-co:hover div.tiffany-and-co.info-popup{
+  visibility: visible;
+}
+
+.scent-explorer-container .top-ten div.info-popup p{
+  width: auto;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: left;
+  margin: 12% 17% 0 13%;
+}
+
+.top-ten div.info-popup a.title{
+  font-family:"HelveticaNeueW01-47LtCn 692686", Arial, sans-serif;
+  display: block;
+  text-decoration: underline;
+  font-size: 19px;
+  margin-bottom: 3%;
+  line-height: 1.1em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.top-ten div.info-popup span.price{
+  font-family:"HelveticaNeueW01-47LtCn 692686", Arial, sans-serif;
+  display: block;
+  font-weight: bold;
+}
+
+.shop-by-scent{
+  background-color: #fff;
+  width: 982px;
+  margin: 0 auto;
+  height: 750px;
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  position: relative;
+}
+
+.scent-explorer-container .shop-by-scent h4{
+  padding: 6% 0 1.2% 0;
+}
+
+.scent-explorer-container .shop-by-scent p.subhead{
+  width: 350px;
+}
+
+.shop-by-scent span.hover{
+  position: absolute;
+  font-size: 24px;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.shop-by-scent span.fresh{
+  background-image: url("https://assets.macys.com/dyn_img/creativepages/FRESH.png");
+  left: 5.5%;
+  top: 12%;
+  height: 231px;
+  width: 231px;
+}
+
+.shop-by-scent span.woodsy{
+  background-image: url("https://assets.macys.com/dyn_img/creativepages/WOODSY.png");
+  top: 8%;
+  right: 2%;
+  height: 265px;
+  width: 265px;
+}
+
+.shop-by-scent span.spicy{
+  background-image: url("https://assets.macys.com/dyn_img/creativepages/SPICY.png");
+  bottom: 33.5%;
+  left: 27.5%;
+  color: #fff;
+  height: 242px;
+  width: 242px;
+}
+
+.shop-by-scent span.floral{
+  background-image: url("https://assets.macys.com/dyn_img/creativepages/FLORAL.png");
+  bottom: 8%;
+  left: 2%;
+  height: 297px;
+  width: 297px;
+}
+
+.shop-by-scent span.sweet{
+  background-image: url("https://assets.macys.com/dyn_img/creativepages/SWEET.png");
+  bottom: 7%;
+  right: 29.5%;
+  color: #fff;
+  height: 221px;
+  width: 221px;
+}
+
+.shop-by-scent span.citrus{
+  background-image: url("https://assets.macys.com/dyn_img/creativepages/CITRUS.png");
+  right: 2.5%;
+  bottom: 18%;
+  height: 261px;
+  width: 261px;
+}
+
+.shop-by-scent div.info-popup{
+  position: absolute;
+  z-index: 2000;
+  background-color: white;
+}
+
+.shop-by-scent div.info-popup span.title{
+  font-family: "HelveticaNeueW01-55Roma", Arial, sans-serif;
+  display: block;
+  margin-bottom: 0.5%;
+  font-size: 23px;
+  font-weight: lighter;
+}
+
+.shop-by-scent div.info-popup a{
+  margin-top: 3%;
+  display: inline-block;
+  font-family: "HelveticaNeueW01-ThinCn 673383", Arial, sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+.shop-by-scent div.info-popup a.shop-for-her{
+  margin-right: 7%;
+}
+
+.shop-by-scent div.fresh.info-popup{
+  background-color: lightblue;
+  width: 597px;
+  top: 23%;
+  left: 11%;
+  visibility: hidden;
+}
+
+span.fresh:hover div.fresh.info-popup{
+  visibility: visible;
+}
+
+.shop-by-scent div.fresh.info-popup .container{
+  margin: 3.5% 10.5% 3.5% 3.5%;
+}
+
+.shop-by-scent div.fresh.info-popup p, .shop-by-scent div.floral.info-popup p, .shop-by-scent div.sweet.info-popup p, .shop-by-scent div.spicy.info-popup p{
+  text-align: left;
+}
+
+.shop-by-scent div.citrus.info-popup p, .shop-by-scent div.woodsy.info-popup p{
+  text-align: right;
+}
+
+.shop-by-scent div.floral.info-popup{
+  background-color: lightgrey;
+  top: 42%;
+  left: 34.5%;
+  width: 381px;
+  visibility: hidden;
+}
+
+span.floral:hover div.floral.info-popup{
+  visibility: visible;
+}
+
+.shop-by-scent div.floral.info-popup .container{
+  margin: 3.5% 5% 6% 3.5%;
+}
+
+.shop-by-scent div.citrus.info-popup{
+  background-color: lightgoldenrodyellow;
+  width: 500px;
+  right: 27%;
+  top: 40%;
+  visibility: hidden;
+}
+
+span.citrus:hover div.citrus.info-popup{
+  visibility: visible;
+}
+
+.shop-by-scent div.citrus.info-popup .container{
+    margin: 3.5% 3.5% 3.5% 3.5%;
+}
+
+.shop-by-scent div.citrus a.shop-for-her{
+    margin-left: 27%;
+}
+
+.shop-by-scent div.woodsy.info-popup{
+  background-color: #ede4e0;
+  width: 300px;
+  top: 5%;
+  right: -43%;
+  visibility: hidden;
+}
+
+span.woodsy:hover div.woodsy.info-popup{
+  visibility: visible;
+}
+
+.shop-by-scent div.woodsy.info-popup .container{
+  margin: 3.5% 5% 5.5% 0%;
+}
+
+div.woodsy.info-popup a.shop-for-her, div.woodsy.info-popup a.shop-for-him{
+  margin-left: 47%;
+  margin-right: 0;
+}
+
+.shop-by-scent div.sweet.info-popup{
+  background-color: lightsalmon;
+  width: 400px;
+  top: 39%;
+  right: 28%;
+  visibility: hidden;
+}
+
+span.sweet:hover div.sweet.info-popup{
+  visibility: visible;
+}
+
+.shop-by-scent div.sweet.info-popup .container{
+  margin: 3.5% 0 5.5% 3.5%;
+  color: #000;
+}
+
+.shop-by-scent div.spicy.info-popup{
+  background-color: lightpink;
+  width: 400px;
+  top: 39%;
+  left: 36%;
+  visibility: hidden;
+}
+
+span.spicy:hover div.spicy.info-popup{
+  visibility: visible;
+}
+
+.shop-by-scent div.spicy.info-popup .container{
+  margin: 3.5% 0 5.5% 3.5%;
+  color: #000;
+}
+
+.scent-explorer-container .fragrance-wardrobe{
+  height: 746px;
+  background-color: lavenderblush;
+  width: 982px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.scent-explorer-container .fragrance-wardrobe p{
+  width: 790px;
+}
+
+.fragrance-carousel-wrapper{
+  display: none;
+}
+
+.fragrance-carousel-wrapper.active{
+  display: block;
+}
+
+.fragrance-carousel-wrapper div.mySlides1, .fragrance-carousel-wrapper div.mySlides2, .fragrance-carousel-wrapper div.mySlides3{
+  height: 453px;
+  width: 48%;
+  margin: 0 auto;
+  display: none;
+}
+
+.fragrance-carousel-wrapper a.less-intense{
+  background-image: url("https://assets.macysassets.com/dyn_img/creativepages/minus_sign.png");
+  height: 183px;
+  width: 25%;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  left: 8%;
+  top: 33%;
+}
+
+.fragrance-carousel-wrapper a.more-intense{
+  background-image: url("https://assets.macysassets.com/dyn_img/creativepages/plus_sign.png");
+  height: 183px;
+  width: 25%;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  right: -2%;
+  margin-top: -31%;
+}
+
+.fragrance-wardrobe h4{
+  padding-top: 2.5%;
+  font: 55px;
+}
+
+.fragrance-wardrobe p.subhead{
+  margin-top: 1%;
+}
+
+.fragrance-carousel-wrapper{
+  margin-top: 1%;
+  position: relative;
+}
+
+.fragrance-carousel-wrapper span{
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 0.05em;
+}
+
+.fragrance-carousel-wrapper span.less-intense{
+  margin: -34% 0 0 8%;
+}
+
+.fragrance-carousel-wrapper span.more-intense{
+  margin: -34% 0 0 77%;
+}
+
+ul.fragrance-types{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 3%;
+}
+
+ul.fragrance-types li{
+  text-transform: uppercase;
+  font-size: 20px;
+  display: inline-block;
+  width: 30%;
+}
+
+ul.fragrance-types li.active{
+  color: #FC96B8;
+}
+
+/* Scent Explorer Styles end */
+
+.fd-arrow-up{
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 18px solid black;
+  margin: 0 auto;
+}
+
+.scent-explorer-container img.fragrance-destination.centered{
+    margin-top: 2.5%;
+}
+
+a.back-to-top{
+  display: block;
+  margin: 0 auto;
+  width: 75px;
+  text-align: center;
+  margin-top: 3%;
+  font-family: "HelveticaNeueW01-ThinCn 673383", Arial, sans-serif;
+  font-size: 28px;
+  text-decoration: none;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 1024px){
+  .fd-mobile{
+    display: block;
+  }
+
+  .fd-desktop{
+    display: none !important;
+  }
+
+  .fragrance-guide-header.pageOne{
+    background-image: url("https://assets.macysassets.com/dyn_img/creativepages/scent_explorer_mobile_bg_01.jpg");
+    background-size: 100%;
+    height: 28vw;
+  }
+
+  .fragrance-guide-header.pageThree{
+    background-image: url("https://assets.macysassets.com/dyn_img/creativepages/C8080689_trendingNow_hero_mob.jpg");
+    background-size: 100%;
+    height: 28vw;
+  }
+
+  .fragrance-guide-header.pageFour{
+    background-image: url("https://assets.macysassets.com/dyn_img/creativepages/C8080689-quiz-main-bg-mob.jpg");
+    background-size: 100%;
+    height: 28vw;
+  }
+
+  .fragrance-guide-header.pageTwo h2{
+    margin-bottom: 1.5vw;
+  }
+
+  span.fragrance-guide-smaller {
+    margin-left: 1vw;
+    display: block;
+    font-family: HelveticaNeueW01-ThinCn\ 673383;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    font-size: 4.5vw;
+    line-height: 9vw;
+    margin-top: -2vw;
+  }
+
+  .fragrance-guide-header h2 {
+    text-align: center;
+    font-family: "HelveticaNeueW01-UltLt";
+    font-size: 11vw;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    width: 70%;
+    line-height: 9vw;
+    padding-top: 0;
+  }
+
+  .scent-explorer-container h4 {
+    margin: 0;
+    line-height: 7vw;
+    font-size: 6vw;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  .scent-explorer-container p {
+    font-family: "HelveticaNeueW01-ThinCn\ 673383";
+    font-size: 5.2vw;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 5vw;
+    margin: 0 auto;
+  }
+
+  .fragrance-destination-container{
+    width: 100%;
+  }
+
+  .scent-explorer-container{
+    background-image: url("https://assets.macys.com/dyn_img/creativepages/scent_explorer_mobile_bg_02.jpg");
+    height: 384vw;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #dacce6;
+    position: relative;
+  }
+
+  .scent-explorer-container .top-ten {
+      position: relative;
+      height: 130vw;
+  }
+
+  .top-ten img.fd-mobile{
+    margin: 0 auto;
+    width: 88%;
+    margin-top: 1%;
+  }
+
+  .scent-explorer-container .top-ten h4 {
+      padding: 0.7% 0 0;
+  }
+
+  .scent-explorer-container .top-ten p {
+    width: auto;
+    padding: 0 13vw;
+  }
+
+  .top-ten span.hover{
+    background-image: url(https://assets.macys.com/dyn_img/creativepages/circle_mobile.png);
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    z-index: 1000;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .top-ten span.ysl{
+    top: 46.3%;
+    left: 15%;
+  }
+
+  .top-ten span.giorgio-armani {
+    top: 57%;
+    left: 12.5%;
+  }
+
+  .top-ten span.dior-sauvage {
+    top: 54.8%;
+    left: 23%;
+  }
+
+  .top-ten span.dior-jadore {
+    left: 32.5%;
+    top: 45.7%;
+  }
+
+  .top-ten span.carolina-herrera {
+    left: 41.5%;
+    top: 47.7%;
+  }
+
+  .top-ten span.dk {
+    top: 42%;
+    right: 42%;
+  }
+
+  .top-ten span.viktor-rolf {
+    right: 43%;
+    top: 63.8%;
+  }
+
+  .top-ten span.coach {
+    top: 48%;
+    right: 31%;
+  }
+
+  .top-ten span.coach.removeBackground{
+    background-image:none;
+  }
+
+  .top-ten span.versace.removeBackground{
+    background-image:none;
+  }
+
+  .top-ten span.versace {
+    top: 68%;
+    right: 28%;
+  }
+
+  .top-ten span.tiffany-and-co {
+    right: 10vw;
+    top: 82vw;
+  }
+
+  .top-ten .info-popup{
+    display: none;
+    background-color: #fff;
+    width: 40vw;
+    height: 102vw;
+    position: absolute;
+    z-index: 1500;
+  }
+
+
+
+  .top-ten .info-popup.top-ten-active{
+    display: block;
+  }
+
+
+  .top-ten div.ysl.info-popup{
+    margin-top: -933.7%;
+    right: -2023%;
+    left: auto;
+    top: auto;
+    visibility: visible;
+  }
+
+  .top-ten div.dior-sauvage.info-popup{
+    margin-top: -1209.7%;
+    right: -1822%;
+    left: auto;
+    top: auto;
+    visibility: visible;
+  }
+
+  .top-ten div.giorgio-armani.info-popup{
+    margin-top: -1276.7%;
+    right: -2086%;
+    left: auto;
+    top: auto;
+    visibility: visible;
+  }
+
+  .top-ten div.dior-jadore.info-popup{
+    right: -1585%;
+    left: auto;
+    top: -914%;
+    bottom: auto;
+    visibility: visible;
+  }
+
+  .top-ten div.carolina-herrera.info-popup {
+    top: -980%;
+    right: -1360%;
+    left: auto;
+    visibility: hidden;
+  }
+
+  .scent-explorer-container .top-ten div.info-popup p {
+    width: auto;
+    font-size: 5vw;
+    line-height: 6vw;
+    text-align: left;
+    margin: 30% 13% 0 10%;
+    padding: 0;
+  }
+
+  .scent-explorer-container .top-ten div.info-popup img{
+    margin-bottom: 2vw;
+  }
+
+  .top-ten div.viktor-rolf.info-popup {
+      top: -1501%;
+      right: -997%;
+      visibility: hidden;
+  }
+
+  .top-ten div.dk.info-popup {
+      top: -790.5%;
+      right: -1072%;
+      visibility: hidden;
+  }
+
+  .top-ten div.coach.info-popup {
+    top: -984%;
+    right: -772%;
+    visibility: hidden;
+  }
+
+  .top-ten div.versace.info-popup {
+    bottom: auto;
+    top: -1639%;
+    right: -698%;
+    visibility: hidden;
+  }
+
+  .top-ten div.tiffany-and-co.info-popup {
+    top: -1627%;
+    bottom: auto;
+    right: -284.5%;
+    visibility: hidden;
+  }
+
+  div.info-popup .close{
+    background-image: url("https://assets.macys.com/dyn_img/creativepages/fragrance_destination_close.png");
+    position: absolute;
+    z-index: 1500;
+    height: 30px;
+    width: 30px;
+    margin: 22% 0 0 6%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .shop-by-scent {
+      background-color: #fff;
+      width: 90%;
+      margin: 0 auto;
+      height: 110vw;
+      background-repeat: no-repeat;
+      margin-top: 0%;
+      position: relative;
+  }
+
+  .shop-by-scent div.info-popup span.title {
+    font-size: 5.5vw;
+  }
+
+  .scent-explorer-container .fragrance-wardrobe {
+      height: 110vw;
+      background-color: #fff0f5;
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 5vw;
+      position: relative;
+  }
+
+  .scent-explorer-container img.fragrance-destination.centered {
+      margin-top: 5%;
+      width: 90%;
+  }
+
+  .shop-by-scent span.fresh {
+      background-image: url(https://assets.macysassets.com/dyn_img/creativepages/fresh_tablet.png);
+      left: 1.5%;
+      top: 27%;
+      height: 25vw;
+      width: 25vw;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      border-radius: 50%;
+  }
+
+  .shop-by-scent .fragrance-title{
+    display: block;
+    font-size: 5vw;
+    text-decoration: underline;
+  }
+
+  .shop-by-scent span.fresh .fragrance-title{
+    color: #fff;
+    margin-left: 15%;
+    padding-top: 37%;
+  }
+
+  .scent-explorer-container .shop-by-scent p.subhead {
+      width: 74%;
+  }
+
+  .scent-explorer-container .shop-by-scent h4 {
+      padding: 1% 0 0%;
+  }
+
+  .shop-by-scent span.woodsy {
+      background-image: url(https://assets.macysassets.com/dyn_img/creativepages/woodsy_fragrance.png);
+      top: 27%;
+      right: 3%;
+      height: 30vw;
+      width: 30vw;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+  }
+
+  .shop-by-scent span.woodsy .fragrance-title{
+    color: #fff;
+    padding-top: 37%;
+    margin-left: 11%;
+  }
+
+  .shop-by-scent span.spicy {
+      background-image: url(https://assets.macysassets.com/dyn_img/creativepages/spicy_tablet.png);
+      bottom: 33.5%;
+      left: 27.5%;
+      color: #fff;
+      height: 30vw;
+      width: 30vw;
+      background-size: 110%;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+      background-position: 70% 47%;
+  }
+
+  .shop-by-scent span.spicy .fragrance-title{
+    padding-top: 38%;
+    margin-left: 25%;
+  }
+
+  .shop-by-scent span.floral {
+      background-image: url(https://assets.macysassets.com/dyn_img/creativepages/floral_tablet.png);
+      bottom: 3%;
+      left: 2%;
+      height: 35vw;
+      width: 35vw;
+      background-size: 113%;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+  }
+
+  .shop-by-scent span.floral .fragrance-title{
+    padding-top: 40%;
+    margin-left: 21%;
+  }
+
+  .shop-by-scent span.sweet {
+      background-image: url(https://assets.macysassets.com/dyn_img/creativepages/sweet_tablet_larger.png);
+      bottom: 2%;
+      right: 28.5%;
+      color: #fff;
+      height: 25vw;
+      width: 25vw;
+      background-size: 220%;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+      background-position: 48% 23%;
+  }
+
+  .shop-by-scent span.sweet .fragrance-title{
+    padding-top: 35%;
+    margin-left: 13%;
+  }
+
+  .shop-by-scent span.citrus {
+      background-image: url(https://assets.macysassets.com/dyn_img/creativepages/citrus_tablet.png);
+      right: 2.5%;
+      bottom: 18%;
+      height: 28vw;
+      width: 28vw;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+  }
+
+  .shop-by-scent span.citrus .fragrance-title{
+    padding-top: 40%;
+    margin-left: 16%;
+  }
+
+  .shop-by-scent div.fresh.info-popup {
+      background-color: #add8e6;
+      top: -118%;
+      right: -275%;
+      width: 40vw;
+      height: 110vw;
+      left: auto;
+      visibility: hidden;
+  }
+
+  .shop-by-scent div.info-popup a {
+    margin-top: 3%;
+    display: inline-block;
+    font-family: "HelveticaNeueW01-ThinCn\ 673383", Arial, sans-serif;
+    font-size: 4.5vw;
+    text-transform: uppercase;
+  }
+
+  .shop-by-scent div.fresh.info-popup .container, .shop-by-scent div.spicy.info-popup .container, .shop-by-scent div.floral.info-popup .container, .shop-by-scent div.sweet.info-popup .container, .shop-by-scent div.citrus.info-popup .container, .shop-by-scent div.woodsy.info-popup .container{
+      margin: 58% 8% 0% 8%;
+  }
+
+  .shop-by-scent div.info-popup a.shop-for-her {
+      margin-right: 0;
+      margin-top: 23%;
+  }
+
+  .shop-by-scent div.info-popup span.close{
+      margin: 22% 0 0 -6%;
+  }
+
+  .shop-by-scent div.info-popup{
+    display: none;
+  }
+
+  .shop-by-scent div.info-popup.top-ten-active{
+    display: block;
+  }
+
+  .shop-by-scent div.spicy.info-popup {
+      background-color: #ffb6c1;
+      width: 40vw;
+      height: 110vw;
+      top: -143%;
+      left: auto;
+      right: -134%;
+      visibility: hidden;
+  }
+
+  .shop-by-scent div.floral.info-popup {
+      background-color: #d3d3d3;
+      top: -205%;
+      left: auto;
+      right: -166%;
+      width: 40vw;
+      height: 110vw;
+      visibility: hidden;
+  }
+
+  .shop-by-scent div.sweet.info-popup {
+    background-color: #ffa07a;
+    width: 40vw;
+    height: 110vw;
+    top: -331%;
+    right: -123%;
+    visibility: hidden;
+  }
+
+  .shop-by-scent div.citrus.info-popup {
+      background-color: #fafad2;
+      width: 40vw;
+      height: 110vw;
+      right: -26%;
+      top: -222%;
+      visibility: hidden;
+  }
+
+  .shop-by-scent div.citrus a.shop-for-her {
+      margin-left: 0;
+  }
+
+  .shop-by-scent div.citrus.info-popup p, .shop-by-scent div.woodsy.info-popup p {
+      text-align: left;
+  }
+
+  .shop-by-scent div.woodsy.info-popup {
+      background-color: #b0c4de;
+      width: 40vw;
+      height: 110vw;
+      top: -99%;
+      right: -26%;
+      visibility: hidden;
+  }
+
+  div.woodsy.info-popup a.shop-for-her, div.woodsy.info-popup a.shop-for-him {
+      margin-left: 0;
+      margin-right: 0;
+  }
+
+  .fragrance-carousel-wrapper a.less-intense {
+      background-image: url(https://assets.macys.com/dyn_img/creativepages/minus_sign.png);
+      height: 16vw;
+      width: 16vw;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      display: block;
+      position: absolute;
+      left: 4%;
+      top: 33%;
+  }
+
+  .fragrance-carousel-wrapper span.less-intense {
+      margin: -47% 0 0 2%;
+  }
+
+  .fragrance-carousel-wrapper span {
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 4vw;
+    letter-spacing: .05em;
+    width: 20vw;
+    text-align: center;
+  }
+
+  .fragrance-carousel-wrapper a.more-intense {
+      background-image: url(https://assets.macys.com/dyn_img/creativepages/plus_sign.png);
+      height: 16vw;
+      width: 16vw;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      display: block;
+      position: absolute;
+      right: 3%;
+      margin-top: -36%;
+  }
+
+  .fragrance-carousel-wrapper span.more-intense {
+      margin: -48% 0 0 76%;
+  }
+
+  .fragrance-carousel-wrapper div.mySlides1, .fragrance-carousel-wrapper div.mySlides2, .fragrance-carousel-wrapper div.mySlides3 {
+    height: 48vw;
+    width: 48vw;
+    margin: 0 auto;
+    display: none;
+    margin-top: 3%;
+  }
+
+  .scent-explorer-container .fragrance-wardrobe p {
+      width: 90%;
+  }
+
+  ul.fragrance-types li {
+      text-transform: uppercase;
+      font-size: 4vw;
+      display: inline-block;
+      width: 30%;
+  }
+
+  ul.fragrance-types {
+      text-align: center;
+      width: 85%;
+      margin: 0 auto;
+      margin-top: 7%;
+  }
+
+  /* Mobile Nav Styles */
+  .fragrance-destination-nav.pageOne, .fragrance-destination-nav.pageTwo, .fragrance-destination-nav.pageThree, .fragrance-destination-nav.pageFour{
+    position: absolute;
+    background-image: none;
+    background-color: rgba(255,255,255, 0.5);
+    width: 18vw;
+    height: 18vw;
+    font-size: 6vw;
+    text-align: center;
+    padding-top: 5vw;
+    text-decoration: underline;
+    font-family: "HelveticaNeueW01-ThinCn 673383";
+    text-transform: uppercase;
+    font-weight: bold;
+    top: 0;
+    left: 0;
+  }
+
+  .fragrance-destination-nav ul.fgd-centered {
+      background-color: white;
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 60vw;
+      width: 40vw;
+      display: none;
+  }
+
+  .fragrance-destination-nav ul.fgd-centered.showNav{
+    display: inherit;
+    z-index: 100;
+  }
+
+  .fragrance-destination-nav li {
+    display: block;
+    text-align: left;
+    font-size: 5vw;
+    font-family: HelveticaNeueW01-ThinCn\ 673383,Arial,sans-serif;
+    line-height: 5vw;
+    padding: 5vw 0 0 2vw;
+    letter-spacing: .03em;
+    text-transform: uppercase;
+  }
+
+  .fragrance-guide-header.pageFour h2{
+    font-family: HelveticaNeueW01-Thin;
+  }
+}

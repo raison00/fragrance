@@ -1,0 +1,152 @@
+{
+  "name": "@marketing-campaigns/fragrance-guide",
+  "description": "",
+  "version": "0.47.0",
+  "repository": {
+    "type": "git",
+    "url": "git@code.devops.fds.com:polaris/campaign/fragrance-guide.git"
+  },
+  "config": {
+    "environment": [
+      {
+        "name": "key1",
+        "local": {
+          "mcom": "value1",
+          "bcom": "value2"
+        },
+        "prod": {
+          "mcom": "__VALUE3__",
+          "bcom": "__VALUE4__"
+        }
+      },
+      {
+        "name": "XAPI_HOST",
+        "local": {
+          "mcom": "https://mcom.xapi.com",
+          "bcom": "https://bcom.xapi.com"
+        },
+        "prod": {
+          "mcom": "__VALUE5__",
+          "bcom": "__VALUE6__"
+        }
+      }
+    ],
+    "pages": [
+      {
+        "path": "/",
+        "template": "main",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": false,
+        "tags": {
+          "description": "Find the best fragrance that accentuates the real you, with Macy's Best Perfume & Cologne Fragrance Guide! From a casual perfume on a lazy Saturday, to a breathtaking eau de toilette for a date night, find the scent that's uniquely made just for you.",
+          "canonical": "https://www.macys.com/p/fragrance-guide/",
+          "robots": "index, follow",
+          "title": "The Best Perfume & Cologne Fragrance Guide – Macy’s"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "fragranceguide",
+          "categoryID": "standard"
+        },
+        "apiCall": {
+          "method": "GET",
+          "path": ""
+        }
+      },
+      {
+        "path": "/trending-now/",
+        "template": "trending-now",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": false,
+        "tags": {
+          "description": "The seasons are changing and so does your perfume. With Macy's Perfume & Cologne Trending Now, you will find the latest scents of the season, so you can stay in the latest trend.",
+          "canonical": "https://www.macys.com/p/fragrance-guide/trending-now/",
+          "robots": "index, follow",
+          "title": "Perfume & Cologne Trending Now – Macy's"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "trendingnow",
+          "categoryID": "standard"
+        },
+        "apiCall": {
+          "method": "GET",
+          "path": ""
+        }
+      },
+      {
+        "path": "/fragrance-facts/",
+        "template": "fragrance-facts",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": false,
+        "tags": {
+          "description": "Do you know the anatomy and how to wear your perfume? Check out Macy's Perfume & Cologne Fragrance Facts, where we list information about the musical metaphor in perfumes from Top Notes, Heart Notes & Base Notes. This will help you understand the concentration in a perfume and how to wear it so that it last longer on you.",
+          "canonical": "https://www.macys.com/p/fragrance-guide/fragrance-facts/",
+          "robots": "index, follow",
+          "title": "Perfume & Cologne Fragrance Facts – Macy's"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "fragrancefacts",
+          "categoryID": "standard"
+        }
+      },
+      {
+        "path": "/fragrance-quiz/",
+        "template": "fragrance-quiz",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": false,
+        "tags": {
+          "description": "Not sure what perfume or cologne to wear? Look no further! With Macy's Perfume & Cologne Fragrance Quiz, you can find the right scents that will compliment your everyday needs. Whether you like a fresh, light, fruity smell by Chanel. Or a woody sage, sea salt smell by Jo Malone. Simply take the quiz, to find the right one for you.",
+          "canonical": "https://www.macys.com/p/fragrance-guide/fragrance-quiz/",
+          "robots": "index, follow",
+          "title": "Perfume & Cologne Fragrance Quiz – Macy's",
+          "ogTags": [
+            {
+              "key": "og:url",
+              "value": "https://www.macys.com/p/fragrance-guide/fragrance-quiz/"
+            },
+            {
+              "key": "og:title",
+              "value": "Perfume & Cologne Fragrance Quiz – Macy's. Find your fragrance here!"
+            },
+            {
+              "key": "og:description",
+              "value": "Not sure what perfume or cologne to wear? Look no further! With Macy's Perfume & Cologne Fragrance Quiz, you can find the right scents that will compliment your everyday needs. Whether you like a fresh, light, fruity smell by Chanel. Or a woody sage, sea salt smell by Jo Malone. Simply take the quiz, to find the right one for you."
+            },
+            {
+              "key": "og:image",
+              "value": "https://assets.macys.com/dyn_img/creativepages/fb_share_image.png"
+            }
+          ]
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "fragrancequiz",
+          "categoryID": "standard"
+        },
+        "apiCall": {
+          "method": "GET",
+          "path": ""
+        }
+      }
+    ],
+    "macysCliVersion": "1.288.0"
+  },
+  "engines": {
+    "node": "8.x",
+    "npm": "5.x"
+  },
+  "main": "src/fragrance-guide.js",
+  "devDependencies": {
+    "@core/dev-server": "^1.0.0",
+    "@core/lib": "^1.0.0",
+    "@core/server": "^1.0.0",
+    "lodash": "^4.17.4"
+  },
+  "dependencies": {}
+}

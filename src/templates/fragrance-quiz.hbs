@@ -1,0 +1,61 @@
+{{! Load CSS First }}
+<link href="../{{version}}/common.css" rel="stylesheet">
+
+<!-- FRAGRANCE GUIDE - CONTAINER - QUIZ -->
+<div class="fragrance-destination-container">
+  {{> hero fragranceGuideTitle="Take the Quiz" pageNum="pageFour"}}
+
+  <div class="fg-quiz-container">
+      <div class="row fg-quiz-main-content fg-questionaire">
+        <div class="small-12 columns">
+          <!-- FRAGRANCE GUIDE - QUESTIONAIRE - ROW ONE -->
+          <div id="top" class="fd-quiz-wrapper">
+            <div class="row fg-quiz-row-one">
+              <div class="small-12 columns">
+                <h2>FIND YOUR SCENT FAMILY</h2>
+                <p>With our help, you'll discover<br />something scent-sational.</p>
+              </div>
+            </div>
+
+            <!-- FRAGRANCE GUIDE - QUESTIONAIRE - ROW TWO -->
+            <div class="row fg-quiz-row-two">
+              <div class="small-12 columns">
+                <h3><span>WHICH<br />FRAGRANCE</span><br />IS RIGHT<br />FOR YOU?</h3>
+
+                <div class="fg-quiz-buttons">
+                  <p class="fg-quiz-take-quiz fg-p-quiz-for-her">TAKE THE QUIZ FOR HER</p>
+                  <p class="fg-quiz-take-quiz fg-p-quiz-for-him">TAKE THE QUIZ FOR HIM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FRAGRANCE GUIDE - QUESTIONAIRE - QUIZ FOR HER -->
+          {{> quizForHer }}
+          <!-- END FRAGRANCE GUIDE QUESTIONAIRE FOR HER -->
+
+          <!-- FRAGRANCE GUIDE QUESTIONAIRE FOR HIM -->
+          {{> quizForHim }}
+          <!-- END FRAGRANCE GUIDE QUESTIONAIRE FOR HIM -->
+        </div>
+      </div>
+      <!-- END MAIN CONTENT CONTAINER -->
+
+      <!-- RESULTS CONTAINER -->
+      {{> quizResults}}
+      <!-- END RESULTS CONTAINER -->
+      <div class="quiz-result"></div>
+
+      <img class="fd-quiz-banner fd-desktop" src="https://assets.macys.com/dyn_img/creativepages/quiz-bottom-banner.jpg" alt="The Fragrance Destination. Over 250 of the best fragrances in the world.">
+
+      <img class="fd-quiz-banner fd-mobile" src="https://assets.macys.com/dyn_img/creativepages/quiz-bottom-banner-mobile.jpg" alt="The Fragrance Destination. Over 250 of the best fragrances in the world.">
+
+      <a href="#top" class="back-to-top fd-desktop">
+        <div class="fd-arrow-up"></div>
+        Back to Top
+      </a>
+  </div>
+</div>
+{{! Load  JS Last so DOM is already present }}
+<script src="../{{version}}/js/fragrance-guide.manifest.js"></script>
+<script src="../{{version}}/js/fragrance-guide.app.js"></script>

@@ -1,0 +1,9 @@
+{{! Load CSS First }}
+<link href="{{version}}/common.css" rel="stylesheet">
+
+<div class="fragrance-destination-container">
+  {{> landingPage}}
+</div>
+{{! Load  JS Last so DOM is already present }}
+<script src="{{version}}/js/fragrance-guide.manifest.js"></script>
+<script src="{{version}}/js/fragrance-guide.app.js"></script>

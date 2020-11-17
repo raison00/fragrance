@@ -1,0 +1,412 @@
+
+/* Neue Helvetica W01 45 Light (22.01kb - Latin 1) */
+@font-face {
+    font-family: "HelveticaNeueW01-45Ligh";
+    src: url("//assets.macysassets.com/dyn_img/fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix");
+    src: url("//assets.macysassets.com/dyn_img/fonts/ae1656aa-5f8f-4905-aed0-93e667bd6e4a.eot?#iefix") format("eot"), url("//assets.macysassets.com/dyn_img/fonts/5a13f7d1-b615-418e-bc3a-525001b9a671.woff2") format("woff2"), url("//assets.macysassets.com/dyn_img/fonts/530dee22-e3c1-4e9f-bf62-c31d510d9656.woff") format("woff"), url("//assets.macysassets.com/dyn_img/fonts/688ab72b-4deb-4e15-a088-89166978d469.ttf") format("truetype"), url("//assets.macysassets.com/dyn_img/fonts/7816f72f-f47e-4715-8cd7-960e3723846a.svg#7816f72f-f47e-4715-8cd7-960e3723846a") format("svg");
+}
+
+/* Neue Helvetica W01 25 Ultra Light (72.74kb - Latin 1) */
+@font-face{
+ font-family:"HelveticaNeueW01-UltLt";
+ src:url("//assets.macysassets.com/dyn_img/fonts/41774233-b9da-44be-b252-6a7b612fb1c7.eot?#iefix");
+ src:url("//assets.macysassets.com/dyn_img/fonts/41774233-b9da-44be-b252-6a7b612fb1c7.eot?#iefix") format("eot"),url("//assets.macysassets.com/dyn_img/fonts/9baef9a5-e2af-4838-a3bc-da9d36c0bde8.woff2") format("woff2"),url("//assets.macysassets.com/dyn_img/fonts/4bff1fbb-b4bf-4d95-9c47-efcb14384e36.woff") format("woff"),url("//assets.macysassets.com/dyn_img/fonts/7f1f2a7d-3837-4c93-b373-f03c5da3f9a1.ttf") format("truetype"),url("//assets.macysassets.com/dyn_img/fonts/d9f2752a-8d82-4cf1-b82f-109c1105be7f.svg#d9f2752a-8d82-4cf1-b82f-109c1105be7f") format("svg");
+}
+
+/* Neue Helvetica W01 27 Condensed Ultra Light (53.06kb - Latin 1) */
+@font-face{
+font-family:"HelveticaNeueW01-UltLtC 673371";
+src:url("//assets.macysassets.com/dyn_img/fonts/3345539a-5527-4641-bca2-fa42b579c9ed.eot?#iefix");
+src:url("//assets.macysassets.com/dyn_img/fonts/3345539a-5527-4641-bca2-fa42b579c9ed.eot?#iefix") format("eot"),url("//assets.macysassets.com/dyn_img/fonts/c80fb00b-f0d1-44c8-bf06-2661f3a9e4f8.woff2") format("woff2"),url("//assets.macysassets.com/dyn_img/fonts/ed81998a-20f5-461f-8ae8-b2d1c4feec2a.woff") format("woff"),url("//assets.macysassets.com/dyn_img/fonts/ea4682a4-ca47-43c0-a7af-aa3d4c3df6c8.ttf") format("truetype"),url("//assets.macysassets.com/dyn_img/fonts/dc47192b-c265-43dd-8513-6a8d3bf3c186.svg#dc47192b-c265-43dd-8513-6a8d3bf3c186") format("svg");
+}
+
+/* Neue Helvetica W01 37 Condensed Thin (52.10kb - Latin 1) */
+@font-face{
+font-family:"HelveticaNeueW01-ThinCn 673383";
+src:url("//assets.macysassets.com/dyn_img/fonts/08e2b89e-9853-40e2-b409-05538c48390b.eot?#iefix");
+src:url("//assets.macysassets.com/dyn_img/fonts/08e2b89e-9853-40e2-b409-05538c48390b.eot?#iefix") format("eot"),url("//assets.macysassets.com/dyn_img/fonts/07c0e1c6-6a3d-4c99-8311-b77b3223bbaa.woff2") format("woff2"),url("//assets.macysassets.com/dyn_img/fonts/3d0bfb88-4887-4fd3-a16f-34ae15cbfe25.woff") format("woff"),url("//assets.macysassets.com/dyn_img/fonts/007ff3cd-c6c5-4d33-8458-99c3d6fc8598.ttf") format("truetype"),url("//assets.macysassets.com/dyn_img/fonts/67ccdd14-5fcd-479c-9829-ec39a60795fa.svg#67ccdd14-5fcd-479c-9829-ec39a60795fa") format("svg");
+}
+
+/* Neue Helvetica W01 55 Roman (22.17kb - Latin 1) */
+@font-face {
+    font-family: "HelveticaNeueW01-55Roma";
+    src: url("//assets.macysassets.com/dyn_img/fonts/b7693a83-b861-4aa6-85e0-9ecf676bc4d6.eot?#iefix");
+    src: url("//assets.macysassets.com/dyn_img/fonts/b7693a83-b861-4aa6-85e0-9ecf676bc4d6.eot?#iefix") format("eot"), url("//assets.macysassets.com/dyn_img/fonts/b0868b4c-234e-47d3-bc59-41ab9de3c0db.woff2") format("woff2"), url("//assets.macysassets.com/dyn_img/fonts/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff") format("woff"), url("//assets.macysassets.com/dyn_img/fonts/b0ffdcf0-26da-47fd-8485-20e4a40d4b7d.ttf") format("truetype"), url("//assets.macysassets.com/dyn_img/fonts/da09f1f1-062a-45af-86e1-2bbdb3dd94f9.svg#da09f1f1-062a-45af-86e1-2bbdb3dd94f9") format("svg");
+}
+
+/* Neue Helvetica W01 47 Condensed Light (52.19kb - Latin 1) */
+@font-face{
+font-family:"HelveticaNeueW01-47LtCn 692686";
+src:url("//assets.macysassets.com/dyn_img/fonts/7de6b03f-1298-4bc2-89af-9d9da594008d.eot?#iefix");
+src:url("//assets.macysassets.com/dyn_img/fonts/7de6b03f-1298-4bc2-89af-9d9da594008d.eot?#iefix") format("eot"),url("//assets.macysassets.com/dyn_img/fonts/b37ddbd9-24db-4864-9095-5084a5679dd2.woff2") format("woff2"),url("//assets.macysassets.com/dyn_img/fonts/42aacb2f-222e-46f5-a95a-1c22948ee0d1.woff") format("woff"),url("//assets.macysassets.com/dyn_img/fonts/217a2f81-1e65-4924-a0d4-05ac8576f883.ttf") format("truetype"),url("//assets.macysassets.com/dyn_img/fonts/5405647d-099e-47f7-9d4a-f8692e57a206.svg#5405647d-099e-47f7-9d4a-f8692e57a206") format("svg");
+}
+
+.fg-tn-container {
+  background-color: #f7eff5;
+}
+
+.fg-tn-container .fg-tn-content-bg {
+  background-color: #e4d3df;
+  background-image: url("https://assets.macys.com/dyn_img/creativepages/C8080688_trendingNow_bg_dsk.jpg");
+  background-repeat: no-repeat;
+  max-width: 1280px;
+  height: 3220px;
+  margin: auto;
+  background-position: 0 16.8%;
+}
+
+.fg-tn-container .fg-tn-content-bg .fg-tn-main-content {
+  max-width: 982px;
+  margin: auto;
+}
+
+/* ROW ONE */
+.fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-one h2 {
+  font-family: "HelveticaNeueW01-UltLt", Arial, sans-serif;
+  text-align: center;
+  font-size: 57px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    margin-top: 1em;
+}
+
+/* ROW TWO */
+.fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-two {
+  margin-top: 3.5em;
+  height: 750px;
+}
+
+.fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-two p {
+  background-color: #ffffff;
+  font-family:"HelveticaNeueW01-UltLtC 673371", Arial, sans-serif;
+  font-size: 28px;
+    padding: 15px;
+    text-transform: uppercase;
+    line-height: 25px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-two div {
+  background-color: #f2ebf1;
+  height: 45px;
+}
+
+/* ROW THREE */
+.fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-three {
+  margin-top: 2em;
+}
+
+.fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-three h3 {
+  font-family: "HelveticaNeueW01-45Ligh", Arial, sans-serif;
+  font-size: 55px;
+  position: absolute;
+  right: 61px;
+  top: 2px;
+  font-weight: lighter;
+}
+
+.fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-three p {
+  font-family: "HelveticaNeueW01-45Ligh", Arial, sans-serif;
+  font-size: 24px;
+  line-height: 25px;
+  position: absolute;
+  right: 39px;
+  top: 92px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* ROW FOUR */
+.fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-four {
+  margin-top: 2em;
+  background-color: #ededed;
+}
+
+.fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-four h3 {
+  font-family: "HelveticaNeueW01-45Ligh", Arial, sans-serif;
+  font-size: 55px;
+  text-align: center;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+/* ROW FIVE */
+.fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-five {
+  background-color: #ffffff;
+}
+
+.fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-five .fg-tn-row-five-video {
+  width: 955px;
+  margin: auto;
+}
+
+.fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-five .fg-tn-row-five-video .fragrance-vid {
+  margin-top: 1.5em;
+  margin-bottom: 2em;
+  width: 444px;
+  margin-left: 22px;
+  float: left;
+}
+
+.fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-five .fg-tn-row-five-info {
+  background-color: #ededed;
+}
+
+.fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-five .fg-tn-row-five-info .row-five-desk-gray {
+  width: 955px;
+  margin: auto;
+  float: unset;
+}
+
+.fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-five .fg-tn-row-five-info .fragrance-vid-info {
+  width: 444px;
+  margin-left: 22px;
+  float: left;
+}
+
+.fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-five .fg-tn-row-five-info .fragrance-vid-info img {
+  margin-left: 26px;
+  margin-top: -24px;
+}
+
+.fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-five h4 {
+  font-family:"HelveticaNeueW01-47LtCn 692686", Arial, sans-serif;
+  font-size: 26px;
+    margin-left: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-five p {
+  font-family:"HelveticaNeueW01-47LtCn 692686", Arial, sans-serif;
+  font-size: 17px;
+  margin-left: 25px;
+  margin-top: 0px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 17px;
+}
+
+/* END STYLES */
+.fd-arrow-up{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 18px solid black;
+    margin: 0 auto;
+}
+
+.fg-tn-container .fg-tn-content-bg .fg-tn-main-content img.fragrance-destination.centered{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+a.back-to-top{
+    display: block;
+    margin: 0 auto;
+    width: 75px;
+    text-align: center;
+    margin-top: 3%;
+    font-family: "HelveticaNeueW01-ThinCn 673383", Arial, sans-serif;
+    font-size: 28px;
+    text-decoration: none;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-bottom: 3%;
+}
+
+.bc-iframe, .bc-iframe body, .bc-player-r1Lf66yc_default, .bc-player-r1Lf66yc_default .vjs-poster{
+  background-color:none !important;
+}
+
+.fragrance-vid .vjs-poster{
+  background-color:none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .fd-desktop {
+    display: none !important;
+  }
+  .fg-tn-container .fg-tn-content-bg {
+    background-color: #e4d3df;
+    background-image: url("https://assets.macys.com/dyn_img/creativepages/C8080689_trendingNow_hero_mob.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    background-position: 0 0;
+  }
+
+  .fg-tn-container .fg-tn-content-bg .fg-tn-main-content {
+    max-width: 85%;
+    margin: auto;
+  }
+
+  /* ROW ONE */
+  .fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-one h2 {
+    font-family: "HelveticaNeueW01-45Ligh", Arial, sans-serif;
+    font-size: 5vw;
+    line-height: 5vw;
+    margin-top: 5vw;
+  }
+
+  /* ROW TWO */
+  .fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-two {
+    margin-top: 5vw;
+    height: 106vw;
+  }
+
+  .fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-two img {
+    width: 100%;
+  }
+
+  .fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-two p {
+    font-family:"HelveticaNeueW01-ThinCn 673383", Arial, sans-serif;
+    font-size: 4vw;
+    text-align: center;
+    padding: 2vw 2vw;
+    line-height: 5vw;
+  }
+
+  .fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-two div {
+    height: 6vw;
+  }
+
+  /* ROW THREE */
+  .fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-three {
+    margin-top: 2em;
+  }
+
+  .fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-three img {
+    width: 100%;
+  }
+
+  .fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-three h3 {
+    font-family: "HelveticaNeueW01-45Ligh", Arial, sans-serif;
+    font-size: 7vw;
+      position: absolute;
+      right: 23%;
+      top: 1%;
+      font-weight: lighter;
+  }
+
+  .fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-three p {
+    font-family: "HelveticaNeueW01-45Ligh", Arial, sans-serif;
+    font-size: 4vw;
+    line-height: 5vw;
+    position: absolute;
+    right: 9vw;
+    top: unset;
+    bottom: 1px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  /* ROW FOUR */
+  .fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-four {
+    margin-top: 2em;
+    background-color: #ededed;
+  }
+
+  .fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-four h3 {
+    font-size: 7vw;
+    letter-spacing: 3px;
+    margin-top: unset;
+    margin-bottom: 4vw;
+  }
+
+  /* ROW FIVE */
+  .slick-slider .slick-list {
+    padding: 0px !important;
+    height: 127vw;
+  }
+
+  .fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-five {
+    height: 116vw;
+  }
+
+  .fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-five .fg-tn-slider .fragrance-vid {
+    margin-top: 3vw;
+    margin-bottom: 1vw;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-five .fg-tn-slider .fragrance-img {
+    width: 80%;
+    margin: auto;
+    margin-bottom: -28vw;
+  }
+
+  .fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-five .fg-tn-slider .fragrance-vid-info {
+    background-color: #ededed;
+    /*padding-top: 30vw;
+    padding-bottom: 15vw;*/
+    height: 75vw;
+  }
+
+  .slick-dots {
+    list-style-type: none !important;
+      position: absolute;
+      bottom: 3vw;
+      left: 37%;
+  }
+
+  .slick-dots li {
+    float: left;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color: #ffffff;
+    margin: 3vw;
+  }
+
+  .slick-dots .slick-active {
+    background-color: #e4a1be;
+  }
+
+  .slick-dots button {
+    display: none;
+  }
+
+  .fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-five h4 {
+    font-family:"HelveticaNeueW01-47LtCn 692686", Arial, sans-serif;
+    font-size: 4vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    padding-top: 30vw;
+  }
+
+  .fg-tn-container .fg-tn-content-bg .fg-tn-main-content .fg-tn-row-five p {
+    font-family: HelveticaNeueW01-47LtCn\ 692686,Arial,sans-serif;
+    font-size: 4vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    margin-top: 0;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    line-height: 4vw;
+  }
+
+  .fg-tn-container .fg-tn-content-bg .fg-tn-main-content img.fragrance-destination.centered {
+      margin-top: 0;
+      margin-bottom: 10.5%;
+      width: 111%;
+  }
+
+  .fragrance-img img{
+    width: 100vw;
+  }
+}
